@@ -2,7 +2,6 @@ import React from 'react';
 // import MainNavigation from './src/navigation/navigation';
 import {Provider} from 'react-redux';
 import {store} from './store';
-import Loader from './src/views/hoc/loader';
 import MainNavigation from './src/navigation/navigation';
 import 'react-native-gesture-handler';
 
@@ -11,7 +10,6 @@ const App = () => {
     <>
       <Provider store={store}>
         <MainNavigation token={false} />
-        <Loader />
       </Provider>
     </>
   );
