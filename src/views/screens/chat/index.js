@@ -1,5 +1,5 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import {KeyboardAvoidingView, Text, View} from 'react-native';
 import BaseScreen from '../../../component/base-screen';
 import ChatStyles from './style';
 import ChatScreen from '../../../component/chat-screen/ChatScreen';
